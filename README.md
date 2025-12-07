@@ -155,9 +155,7 @@ All requests, responses, and exceptions are logged via CustomLoggerService.
 Logs are categorized by status codes (2xx, 4xx, 5xx) and can rotate daily.
 
 Global exception filter returns structured responses:
-```
 
-```text
 {
   "success": false,
   "message": "Unexpected error occurred",
