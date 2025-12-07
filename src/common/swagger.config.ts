@@ -4,7 +4,7 @@ import { INestApplication } from '@nestjs/common';
 export function SwaggerConfig(app: INestApplication<any>) {
     const config = new DocumentBuilder()
         .setTitle('User Management')
-        .setDescription('API documentation for my User Management service')
+        .setDescription('API documentation for User Management service')
         .setVersion('1.0')
         .addBearerAuth(
             {
