@@ -1,7 +1,7 @@
 # 🚀 NestJS Modular API Project
-```text
+
 A **modular NestJS application** implementing authentication, role-based access control, global logging, and a clean architecture using TypeORM with PostgreSQL.
-```
+
 ---
 
 ## 📖 Table of Contents
