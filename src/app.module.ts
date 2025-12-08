@@ -5,8 +5,10 @@ import { AuthModule } from './modules/auth/auth.module';
 import {UserModule} from "./modules/user/user.module";
 import {MathModule} from "./modules/math/math.module";
 import {LoggerModule} from "./common/logger/logger.module";
+import {AppController} from "./app.contoller";
 
 @Module({
+  controllers: [AppController],
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,

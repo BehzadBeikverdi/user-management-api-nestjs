@@ -13,7 +13,6 @@ async function main() {
   // Swagger configuration
   SwaggerConfig(app);
 
-
   const logger = app.get(CustomLoggerService);
 
   // Global interceptor
